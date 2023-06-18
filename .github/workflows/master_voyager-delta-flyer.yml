@@ -58,6 +58,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'voyager-delta-flyer'
+          app-name: 'voyager-delta-flyer-kk'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_39D07B8E543B409D9C54348FBA63955C }}
